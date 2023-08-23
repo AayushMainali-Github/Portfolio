@@ -6,8 +6,8 @@ const ShuffleCharacters = () => {
     <div className="project">
       <div className="head">Shuffle Characters</div>
       <div className="desc">
-        Its a npm package that can be used to shuffle characters inside a string or shuffle digits of a number. I always wanted to have my own npm package and went on building one.
-        Some usecases for this might be in casinos or some kind of lottery. The source code is not that huge, Its only about 30-40 lines of code.
+        It's a npm package that can be used to shuffle characters inside a string or shuffle digits of a number. I always wanted to have my own npm package and went on building
+        one. Some usecases for this might be in casinos or some kind of lottery. The source code is not that huge, It's only about 30-40 lines of code.
       </div>
       <div className="links">
         <a target="_" href="https://www.npmjs.com/package/shuffle-characters">

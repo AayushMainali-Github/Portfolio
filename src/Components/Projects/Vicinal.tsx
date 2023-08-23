@@ -6,7 +6,7 @@ const Vicinal = () => {
     <div className="project">
       <div className="head">Vicinal</div>
       <div className="desc">
-        A programming language (not sure if you can call it so) that uses functions for everything. Theres library functions defined to do everything and by everything I mean
+        A programming language (not sure if you can call it so) that uses functions for everything. There's library functions defined to do everything and by everything I mean
         EVERYTHING. Even initializing a variable is done using functions. Trying my best to update it frequently. It has been a good project to work on.
       </div>
       <div className="links">
