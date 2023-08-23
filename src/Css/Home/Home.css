@@ -1,0 +1,33 @@
+.home {
+  width: 600px;
+  padding-top: 25px;
+}
+.home > .head {
+  font-size: 60px;
+  font-weight: 600;
+}
+.home > .desc {
+  font-size: 17px;
+  padding: 10px 0 10px 15px;
+  border-left: 1px solid white;
+}
+@media screen and (max-width: 650px) {
+  .home {
+    width: 90vw;
+  }
+  .home > .head {
+    font-size: 48px;
+  }
+  .home > .desc {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home > .head {
+    font-size: 40px;
+  }
+  .home > .desc {
+    font-size: 14.5px;
+  }
+}

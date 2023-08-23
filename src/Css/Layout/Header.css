@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > .logo {
+  height: 75px;
+  cursor: pointer;
+}
+.header > .link > img {
+  height: 40px;
+  margin: 5px;
+  transition: all 0.3s;
+}
+.header > .link > .hovered {
+  height: 50px;
+  margin: 0;
+}
+@media screen and (max-width: 650px) {
+  .header > .logo {
+    height: 50px;
+  }
+  .header > .link > img {
+    height: 35px;
+  }
+  .header > .link > .hovered {
+    height: 40px;
+  }
+}

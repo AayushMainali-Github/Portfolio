@@ -1,0 +1,52 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.projects > .head {
+  font-size: 32px;
+  font-weight: 600;
+}
+.projects > .links {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  gap: 20px;
+  width: 250px;
+}
+.projects > .links > .link {
+  border-bottom: 1px solid rgb(190, 190, 190);
+  padding-bottom: 1px;
+  text-decoration: none;
+  width: fit-content;
+  color: rgba(190, 190, 190);
+  transition: all 0.3s;
+  font-weight: bold;
+  font-size: 17px;
+}
+.projects > .links > .link:hover {
+  color: white;
+  border-color: white;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 800px) {
+  .projects > .links {
+    border-left: 1px solid white;
+    padding-left: 15px;
+  }
+  .projects {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .projects {
+    gap: 10px;
+  }
+  .projects > .head {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .projects > .links > .link {
+    font-size: 14px;
+  }
+}

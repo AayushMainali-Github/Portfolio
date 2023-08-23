@@ -1,0 +1,57 @@
+.project {
+  width: 600px;
+  padding-top: 25px;
+}
+.project > .head {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.project > .desc {
+  border-left: 1px solid white;
+  padding: 10px 0 10px 15px;
+  font-size: 17px;
+}
+.project > .links {
+  border-left: 1px solid white;
+  display: flex;
+  padding: 10px 0 10px 15px;
+  gap: 20px;
+}
+.project > .links > a {
+  border-bottom: 1px solid rgb(190, 190, 190);
+  padding-bottom: 1px;
+  text-decoration: none;
+  width: fit-content;
+  color: rgba(190, 190, 190);
+  transition: all 0.3s;
+  font-weight: bold;
+  font-size: 17px;
+}
+.project > .links > a:hover {
+  color: white;
+  border-color: white;
+}
+@media screen and (max-width: 650px) {
+  .project {
+    width: 90vw;
+  }
+  .project > .head {
+    font-size: 32px;
+  }
+  .project > .desc {
+    font-size: 16px;
+  }
+  .project > .links > a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project > .head {
+    font-size: 26px;
+  }
+  .project > .desc {
+    font-size: 14.5px;
+  }
+}
