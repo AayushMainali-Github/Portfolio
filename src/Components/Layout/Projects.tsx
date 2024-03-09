@@ -10,8 +10,8 @@ const Projects = () => {
     <div className="projects">
       <div className="head">Projects</div>
       <div className="links">
-        <Link className="link" to={pathname === "/projects/shareyourstory" ? "/" : "/projects/shareyourstory"}>
-          Share Your Story
+        <Link className="link" to={pathname === "/projects/lifesimulator" ? "/" : "/projects/lifesimulator"}>
+          Life Simulator
         </Link>
         <Link className="link" to={pathname === "/projects/funwithaayush" ? "/" : "/projects/funwithaayush"}>
           Fun With Aayush
@@ -19,8 +19,8 @@ const Projects = () => {
         <Link className="link" to={pathname === "/projects/vicinal" ? "/" : "/projects/vicinal"}>
           Vicinal
         </Link>
-        <Link className="link" to={pathname === "/projects/randomyoutubeapi" ? "/" : "/projects/randomyoutubeapi"}>
-          Random Youtube Api
+        <Link className="link" to={pathname === "/projects/shareyourstory" ? "/" : "/projects/shareyourstory"}>
+          Share Your Story
         </Link>
         <Link className="link" to={pathname === "/projects/shufflecharacters" ? "/" : "/projects/shufflecharacters"}>
           Shuffle Characters

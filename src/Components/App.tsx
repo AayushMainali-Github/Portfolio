@@ -7,7 +7,7 @@ import mouseMove from "../Utilities/mouseMove";
 import ShareYourStory from "./Projects/ShareYourStory";
 import FunWithAayush from "./Projects/FunWithAayush";
 import Vicinal from "./Projects/Vicinal";
-import RandomYoutubeApi from "./Projects/RandomYoutubeApi";
+import LifeSimulator from "./Projects/LifeSimulator";
 import ShuffleCharacters from "./Projects/ShuffleCharacters";
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/projects/shareyourstory" element={<ShareYourStory />} />
           <Route path="/projects/funwithaayush" element={<FunWithAayush />} />
           <Route path="/projects/vicinal" element={<Vicinal />} />
-          <Route path="/projects/randomyoutubeapi" element={<RandomYoutubeApi />} />
+          <Route path="/projects/lifesimulator" element={<LifeSimulator />} />
           <Route path="/projects/shufflecharacters" element={<ShuffleCharacters />} />
           <Route path="*" element={<Home />} />
         </Route>
