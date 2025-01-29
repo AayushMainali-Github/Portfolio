@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Layout/Layout";
 import Home from "./Home/Home";
 import mouseMove from "../Utilities/mouseMove";
+import ProgrammingMastery from "./Projects/ProgrammingMastery";
 import ShareYourStory from "./Projects/ShareYourStory";
 import FunWithAayush from "./Projects/FunWithAayush";
 import Vicinal from "./Projects/Vicinal";
@@ -20,6 +21,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="/projects/programmingmastery" element={<ProgrammingMastery />} />
           <Route path="/projects/shareyourstory" element={<ShareYourStory />} />
           <Route path="/projects/funwithaayush" element={<FunWithAayush />} />
           <Route path="/projects/vicinal" element={<Vicinal />} />

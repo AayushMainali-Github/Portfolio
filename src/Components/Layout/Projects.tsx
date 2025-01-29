@@ -10,6 +10,9 @@ const Projects = () => {
     <div className="projects">
       <div className="head">Projects</div>
       <div className="links">
+        <Link className="link" to={pathname === "/projects/programmingmastery" ? "/" : "/projects/programmingmastery"}>
+          Programming Mastery
+        </Link>
         <Link className="link" to={pathname === "/projects/lifesimulator" ? "/" : "/projects/lifesimulator"}>
           Life Simulator
         </Link>
