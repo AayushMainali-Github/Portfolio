@@ -5,11 +5,10 @@ import Layout from "./Layout/Layout";
 import Home from "./Home/Home";
 import mouseMove from "../Utilities/mouseMove";
 import ProgrammingMastery from "./Projects/ProgrammingMastery";
-import ShareYourStory from "./Projects/ShareYourStory";
 import FunWithAayush from "./Projects/FunWithAayush";
-import Vicinal from "./Projects/Vicinal";
+import Skepa from "./Projects/Skepa";
 import LifeSimulator from "./Projects/LifeSimulator";
-import ShuffleCharacters from "./Projects/ShuffleCharacters";
+import NumberTheory2 from "./Projects/NumberTheory2";
 
 const App = () => {
   useEffect(() => {
@@ -22,11 +21,10 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/projects/programmingmastery" element={<ProgrammingMastery />} />
-          <Route path="/projects/shareyourstory" element={<ShareYourStory />} />
           <Route path="/projects/funwithaayush" element={<FunWithAayush />} />
-          <Route path="/projects/vicinal" element={<Vicinal />} />
+          <Route path="/projects/numbertheory2" element={<NumberTheory2 />} />
+          <Route path="/projects/skepa" element={<Skepa />} />
           <Route path="/projects/lifesimulator" element={<LifeSimulator />} />
-          <Route path="/projects/shufflecharacters" element={<ShuffleCharacters />} />
           <Route path="*" element={<Home />} />
         </Route>
       </Routes>

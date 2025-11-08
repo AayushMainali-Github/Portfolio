@@ -10,6 +10,12 @@ const Projects = () => {
     <div className="projects">
       <div className="head">Projects</div>
       <div className="links">
+        <Link className="link" to={pathname === "/projects/skepa" ? "/" : "/projects/skepa"}>
+          Skepa
+        </Link>
+        <Link className="link" to={pathname === "/projects/numbertheory2" ? "/" : "/projects/numbertheory2"}>
+          Number Theory 2
+        </Link>
         <Link className="link" to={pathname === "/projects/programmingmastery" ? "/" : "/projects/programmingmastery"}>
           Programming Mastery
         </Link>
@@ -18,15 +24,6 @@ const Projects = () => {
         </Link>
         <Link className="link" to={pathname === "/projects/funwithaayush" ? "/" : "/projects/funwithaayush"}>
           Fun With Aayush
-        </Link>
-        <Link className="link" to={pathname === "/projects/vicinal" ? "/" : "/projects/vicinal"}>
-          Vicinal
-        </Link>
-        <Link className="link" to={pathname === "/projects/shareyourstory" ? "/" : "/projects/shareyourstory"}>
-          Share Your Story
-        </Link>
-        <Link className="link" to={pathname === "/projects/shufflecharacters" ? "/" : "/projects/shufflecharacters"}>
-          Shuffle Characters
         </Link>
       </div>
     </div>
